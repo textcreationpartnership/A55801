@@ -1,0 +1,700 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Witty William of Wiltshire his birth, life, and education, and strange adventures ... with merry songs and sonnets.</title>
+            <author>L. P. (Laurence Price), fl. 1625-1680?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1674</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 33 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A55801</idno>
+            <idno type="STC">Wing P3394</idno>
+            <idno type="STC">ESTC R29404</idno>
+            <idno type="EEBO-CITATION">11088719</idno>
+            <idno type="OCLC">ocm 11088719</idno>
+            <idno type="VID">46342</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A55801)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 46342)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1428:23)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Witty William of Wiltshire his birth, life, and education, and strange adventures ... with merry songs and sonnets.</title>
+                  <author>L. P. (Laurence Price), fl. 1625-1680?</author>
+               </titleStmt>
+               <extent>[23] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for C. Passinger,</publisher>
+                  <pubPlace>[S.l.] :</pubPlace>
+                  <date>1674.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed by Wing and NUC pre-1956 imprints to Laurence Price.</note>
+                  <note>Imperfect: cropped, faded and stained with some loss of print.</note>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:46342:1" rendition="simple:additions"/>
+            <pb facs="tcp:46342:1"/>
+            <pb facs="tcp:46342:2" rendition="simple:additions"/>
+            <pb facs="tcp:46342:2"/>
+            <p>WITTY <hi>VVilliam</hi> of <hi>VVilt-ſhire.</hi>
+            </p>
+            <p>His birth, Life, and Education, and ſtrange adventures: with his unmatchable Cheats, witty feats, and merry conceits; ſetting forth his travels, what Dangers he eſcapt by the help of his wits, and how he was himſelf Cheated of fifty pounds by a Lady of pleaſure, and yet knew not whether ſhe was a man or woman, but by her hands and face.</p>
+            <p>With merry ſongs and ſonnets.</p>
+            <lg>
+               <l>
+                  <hi>You that this book ſhall hear or read,</hi>
+               </l>
+               <l>
+                  <hi>and underſtand the ſame,</hi>
+               </l>
+               <l>
+                  <hi>You cannot chuſe but laugh indeed,</hi>
+               </l>
+               <l>
+                  <hi>for it deſerves no blame.</hi>
+               </l>
+               <l>
+                  <hi>Except it be for modeſty,</hi>
+               </l>
+               <l>
+                  <hi>the which he did defie;</hi>
+               </l>
+               <l>
+                  <hi>And then you will confeſs with me,</hi>
+               </l>
+               <l>
+                  <hi>that herein is no lye.</hi>
+               </l>
+               <l>
+                  <hi>Read and laugh, then laugh and read,</hi>
+               </l>
+               <l>
+                  <hi>both wit and mirth it fill,</hi>
+               </l>
+               <l>
+                  <hi>Read it quite o're, and ne'r give o're,</hi>
+               </l>
+               <l>
+                  <hi>till you have laught your fill.</hi>
+               </l>
+               <l>
+                  <hi>And if that this your palate pleaſe,</hi>
+               </l>
+               <l>
+                  <hi>with mirth and eke with art,</hi>
+               </l>
+               <l>
+                  <hi>You will obliege the Authour then,</hi>
+               </l>
+               <l>
+                  <hi>to write a ſecond part.</hi>
+               </l>
+            </lg>
+            <p>Printed for <hi>C. Paſſinger,</hi> next door to the <hi>Spur-Inn</hi> in <hi>Southwark,</hi> 1674.</p>
+            <pb facs="tcp:46342:3" rendition="simple:additions"/>
+            <pb facs="tcp:46342:3"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:46342:4" rendition="simple:additions"/>
+            <pb facs="tcp:46342:4"/>
+            <head>WITTY <hi>VVilliam</hi> of <hi>Wiltſhire.</hi>
+            </head>
+            <head type="sub">Shewing his Merry pranks, pretty Feats, witty Cheats; being full of VVit and Mirth, and very delightful to read.</head>
+            <p>THere was a Man which had a hopeful ſon by his wife, whom he named <hi>William,</hi> and becauſe he had been long in <hi>Wilt-ſhire,</hi> the Mans bye name was called <hi>wilt-ſhire:</hi> this ſtripling was put to School, and took his Learning ſo well, that in short time he out-learned many of his fellows, and became well ſtild both in his Latin and Lying tongue, and frequenting the company of Gypſies, which did often frequent to their town, became ve<g ref="char:EOLhyphen"/>ry eloquent in canting, inſomuch that all men admired his dexterity, in that <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aught and ſtrange language, he was well <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> with deceits from his childhood, and <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ell di<g ref="char:EOLhyphen"/>cemble an injury till he had opportunity to avenge the ſame; for whilſt he was yet little he uſed this his excellent courage, rever to beat any leſs nor younger then himſelf, but bent his revenge with great ardenſie againſt thoſe biger then himſelf, and would defend
+<pb facs="tcp:46342:5"/>the weaker and leſſer ſort of his fellows, from thoſe that were too ſtrong for them, this his deportment gaind him the favour both of old and young, rich and poor.</p>
+            <p>One time in a bitter cold day he eſpyed a boy that had lately done him an injury, ſtand peeping into a shallow well, he came ſoftly behind him, &amp; thruſt him in the féet forward, that he ſtood up to the Neck in cold water; not knowing who thruſt him in, he cry'd out aloud for help, but <hi>William</hi> decémbling the matter, as not knewing thereof, came with ſome company and drag'd him out, as dry as a<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d owned Mouſé: <hi>William</hi> ſmiling, ſaid, <hi>Thank me your God-father, for this good turn that I have done you:</hi> the boy miſtak<g ref="char:EOLhyphen"/>ing his real meaning, ſaid in good earneſt, <hi>I thank you kindly God father, I had cer<g ref="char:EOLhyphen"/>tainly been drowned had it not been for you.</hi>
+            </p>
+            <p>At another time he and his Companions went for to <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ob<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>an Orchard, ſome of which hed diſcovered his miſdemeaners to his ma<g ref="char:EOLhyphen"/>ſter, which he bare in mind, they were eight in number, he ſent five up into the trees to ſhake down apples, when he had ſent the two others laden away, and himſelf had hid his own ſhare, he went immediately to the own<g ref="char:EOLhyphen"/>er, and ſends him into the Orchard, where
+<pb facs="tcp:46342:5"/>he caught the five boys in the trees, who all of them were ſoundly whipt the next day; unto whom he ſaid now I am ſufficiently re<g ref="char:EOLhyphen"/>venged for telling tales of me to my maſter, (if this doth pleaſe you tell again but after this all the boys made friendſhip with <hi>Willi<g ref="char:EOLhyphen"/>am.</hi>
+            </p>
+            <p>
+               <hi>William</hi> having oft obſerved a company of vacrant fellows that were counterfeits, to lye basking in the ſun in his fathers cloſe, in the long graſs under a great hedge, came by them and ask'd if they lay there all night, yea Maſter ſaid they, if that we had but a lit<g ref="char:EOLhyphen"/>tle ſtraw; well ſaid he, come to me at night and I will give you ſtraw, in their abſence he laid a train of Gunpowder under the long graſs that came quite through the hedge; <hi>Will</hi> according to his word had furniſht them with ſtraw, for which they were very thank<g ref="char:EOLhyphen"/>ful; about midnight came <hi>William,</hi> when they and their doxies were faſt aſleep, puts fire to the train, this fired the hedge and all the low trees, made all the Criples run a<g ref="char:EOLhyphen"/>way, moſt pittifully burnt in their Limbs, their crys with the great blaze of fire raiſed the whole town, which apprehended theſe ſtrangers, who were all whipt for the fact; never ſince that time durſt any ſuch perſons approach that town.</p>
+            <pb facs="tcp:46342:6"/>
+            <p>But the foreſaid <hi>William</hi> growing to <hi>9</hi> years of age, and ſo expert in all villanies, his father fearing that ſome great miſchief would follow determined to ſend him to <hi>Lon<g ref="char:EOLhyphen"/>don</hi> to a friend, but whilſt this was deter<g ref="char:EOLhyphen"/>mining there came to their town a crew of Gipſies, who viewing his countenance, which was freſh and rudy, asked him if he could ſpeak Lattin, yea that I can ſaid <hi>William,</hi> ſo he anſwered them partly in Lattin, and partly in Canting, which cauſed the chief Maſter for to admire his dexterity in that ſort of Pedlors French, what tricks they u<g ref="char:EOLhyphen"/>ſed was unknown, but at their departure they took <hi>William</hi> away with them, with whom he continued till that he was fifteen years of age, and then returned home to his Father, both in good liking of body, and well cloathed.</p>
+            <p>After this his father ſent him to London, where he was bound Prentice to a ſaleſman, but before the year was quite out, he having found the ſweetneſs of fingering of Crowns, what with keeping evil Company and much drinking, he had run his Maſter out a<g ref="char:EOLhyphen"/>bove an hundred pounds, for which debe he was caſt into priſon, where he lay a long time, till by the aſſiſtance of ſome friends, and the late act of Parlement he was ſet at liberty.</p>
+            <pb facs="tcp:46342:6"/>
+            <p>Imediately he writes both to his Father and Brother, but he received but a churliſh anſwer, becauſe they were aſhamed both of his life and actions, and becauſe his father had loſt his moneys he put him out withall, he durſt not preſs two hard upon their kindneſs and being in great diſtreſs, wanting both mo<g ref="char:EOLhyphen"/>neys and cloaths, he Writ to a Young-man ſometimes his School-fellow, a pittiful let<g ref="char:EOLhyphen"/>ter in theſe Words following.</p>
+            <floatingText type="letter" xml:lang="eng">
+               <body>
+                  <lg>
+                     <l>
+                        <hi>Sir to your hands theſe lines <hi>I</hi> do preſent</hi>
+                     </l>
+                     <l>
+                        <hi>beſeeching you to yield your free conſent</hi>
+                     </l>
+                     <l>
+                        <hi>tome that with theſe lines doth you ſalute</hi>
+                     </l>
+                     <l>
+                        <hi>And alſo grant to me one needful ſute.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>Impriſonment hath wrought my full decay</hi>
+                     </l>
+                     <l>
+                        <hi>&amp; all my cloaths are torn &amp; worn away,</hi>
+                     </l>
+                     <l>
+                        <hi>My hats ſo full of holes on every ſide,</hi>
+                     </l>
+                     <l>
+                        <hi>That <gap reason="illegible" resp="#UOM" extent="2 letters">
+                              <desc>••</desc>
+                           </gap>ch the ſame my face I cannot hide.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>My hatband which before I us'd to wear,</hi>
+                     </l>
+                     <l>
+                        <hi>I chang'd it with the tapſter for <hi>ſtrong beer</hi>
+                        </hi>
+                     </l>
+                     <l>
+                        <hi>My ribons gay of crimſon blew and red,</hi>
+                     </l>
+                     <l>
+                        <hi>truct for Cand les to light me to bed.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>My powder'd perriwig unto my grief,</hi>
+                     </l>
+                     <l>
+                        <hi>
+                           <hi>I</hi> ſold away to buy me powder beef;</hi>
+                     </l>
+                     <l>
+                        <hi>My ſhirts ſo rent, ſo torn and tattered,</hi>
+                     </l>
+                     <l>
+                        <hi>
+                           <hi>I</hi> can't deviſe to pul't over my head.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>My ſcarlet waſtcoat with the tits thereon</hi>
+                     </l>
+                     <l>
+                        <hi>&amp; broad gold ſace are all caſhir'd &amp; gone</hi>
+                     </l>
+                     <pb facs="tcp:46342:7"/>
+                     <l>
+                        <hi>My doublit that's grown very thin &amp; bare</hi>
+                     </l>
+                     <l>
+                        <hi>Like to a boan for which no worms do care</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>My coat &amp; Shaſh I turn'd them into chink</hi>
+                     </l>
+                     <l>
+                        <hi>And with the ſame I bought beef bread &amp; drink,</hi>
+                     </l>
+                     <l>
+                        <hi>My doublit makes me ſeem a monſter ſtrange,</hi>
+                     </l>
+                     <l>
+                        <hi>As if mans habit did his nature change.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>My waſtbands waſted, &amp; my ſneezing tears it,</hi>
+                     </l>
+                     <l>
+                        <hi>Quite off o'th hooks, juſt like to him that wears it,</hi>
+                     </l>
+                     <l>
+                        <hi>My breeches peticots do more reſememble</hi>
+                     </l>
+                     <l>
+                        <hi>Then any Lawyers gown within the temple</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>My belly pieces ſtill are fat I well obſerve,</hi>
+                     </l>
+                     <l>
+                        <hi>If baked well for belly pieces ſerve,</hi>
+                     </l>
+                     <l>
+                        <hi>My ſtockings they are ſound as any bell,</hi>
+                     </l>
+                     <l>
+                        <hi>But how to draw them on I cannot tell.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>my <hi>ſhoos</hi> about my feet <hi>keep</hi> rouling round,</hi>
+                     </l>
+                     <l>
+                        <hi>As if no ſtockings in them could be found,</hi>
+                     </l>
+                     <l>
+                        <hi>My ſhoos and ſoals both ſeparated are,</hi>
+                     </l>
+                     <l>
+                        <hi>So that my feet upon the ground goes bare.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>When I behold the gallants by me paſs,</hi>
+                     </l>
+                     <l>
+                        <hi>Methinks I ſee my ſelf in natures glaſs,</hi>
+                     </l>
+                     <l>
+                        <hi>Not like the fiſh that ſports to ſwim &amp; ſink</hi>
+                     </l>
+                     <l>
+                        <hi>whilſt I want coyn to buy me meat &amp; drink</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>Nor like thoſe fields that are both freſh and green,</hi>
+                     </l>
+                     <l>
+                        <hi>Whilſt I aſhamed am for to be ſeen,</hi>
+                     </l>
+                     <pb facs="tcp:46342:7"/>
+                     <l>
+                        <hi>Nor like thoſe gardens that yields ſweet content,</hi>
+                     </l>
+                     <l>
+                        <hi>Whilſt all my Cloaths are both torn and rent</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>Nor like the trees that yeild delicious fruit,</hi>
+                     </l>
+                     <l>
+                        <hi>For I go daily in a tattered ſuit,</hi>
+                     </l>
+                     <l>
+                        <hi>Nor am I trim'd like Butter-flies and Bees,</hi>
+                     </l>
+                     <l>
+                        <hi>For here and there a tatter I do leaſe.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>You are my approved friend and do confeſs,</hi>
+                     </l>
+                     <l>
+                        <hi>The only one that can my wants redreſs,</hi>
+                     </l>
+                     <l>
+                        <hi>Remember Sir you are of friends my chief,</hi>
+                     </l>
+                     <l>
+                        <hi>Turn pray you quickly, ſend me ſome relief.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>So fare you well, I pray ſay me not nay,</hi>
+                     </l>
+                     <l>
+                        <hi>Neceſſity admits of no delay.</hi>
+                     </l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p>No ſooner had the young-man received his Letter, but he forthwith ſhewed it to <hi>Willi<g ref="char:EOLhyphen"/>ams</hi> brother, that was his boſome friend, he out of compaſſion to his brother, ſhewed it to his father, the father out of love to <hi>William</hi> to kéep him from furder danger, and willing to be a father in diſtreſs, but not to be ſeen in it, leaſt he ſhould depend upon it, furniſht him with theſe following things, caus'd the young-man to anſwer his letter as followeth.</p>
+            <floatingText type="letter" xml:lang="eng">
+               <body>
+                  <pb facs="tcp:46342:8"/>
+                  <head>His friendly anſwer.</head>
+                  <lg>
+                     <l>THy kind ſalute came ſafely to my hand</l>
+                     <l>Thy nakedneſs <hi>I</hi> plainly underſtand,</l>
+                     <l>When <hi>I</hi> conſider thy induſtrous care,</l>
+                     <l>thy long confinement &amp; extream hard fair.</l>
+                  </lg>
+                  <lg>
+                     <l>thy words and actions ſeem both moſt witty</l>
+                     <l>My heart and ſoul upon thee taketh pitty,</l>
+                     <l>My friend, thou ſhalt not want whilſt that <hi>I</hi> have</l>
+                     <l>A life or livlihood without the grave.</l>
+                  </lg>
+                  <lg>
+                     <l>As for the promiſe <hi>I</hi> to thee did make,</l>
+                     <l>To eaſe thy wants that <hi>I</hi> would undertake,</l>
+                     <l>Some few things unto thee <hi>I</hi> have ſent,</l>
+                     <l>For to caſhear thy ſuit that's torn and rent.</l>
+                  </lg>
+                  <lg>
+                     <l>A perriwig that once my ſelf did wear,</l>
+                     <l>Criſped and curl'd, all made of flaxen hair,</l>
+                     <l>A Beavor fair for to adorn thy head,</l>
+                     <l>
+                        <hi>A</hi> golden band with fancies green and red.</l>
+                  </lg>
+                  <lg>
+                     <l>Two Hollon ſhirts, &amp; two half ſhirts beſide,</l>
+                     <l>With fair half ſleeves that are both large and wide,</l>
+                     <l>Two pair of drawers that are both clean and white,</l>
+                     <l>Two Cravats and bands for thy delight.</l>
+                  </lg>
+                  <lg>
+                     <l>A handſome ſuit thats of the neweſt faſhion</l>
+                     <l>To wear when that thou takeſt recreation,</l>
+                     <l>Likewiſe a Caſock of a comely hugh,</l>
+                     <l>My loving friend now <hi>I</hi> have ſent to you.</l>
+                  </lg>
+                  <lg>
+                     <l>A riding coat to keep out rain and wind,</l>
+                     <pb facs="tcp:46342:8"/>
+                     <l>For you to wear when you a caution find,</l>
+                     <l>Two pair of ſtockings that of ſilk are made,</l>
+                     <l>So dyed in grain, the colour will never fade.</l>
+                  </lg>
+                  <lg>
+                     <l>Two pair of ſhoos with Colotious beſide,</l>
+                     <l>one pair of boots when you have need to ride</l>
+                     <l>
+                        <hi>I</hi> have ſent thee a gelding that's all white,</l>
+                     <l>With all accowterments for thy delight.</l>
+                  </lg>
+                  <lg>
+                     <l>
+                        <hi>A</hi> ſword and belt a truſty Ornament,</l>
+                     <l>To guard thy ſelf, and dangers to prevent,</l>
+                     <l>Likewiſe a Cain <hi>I</hi> have ſent thee withal,</l>
+                     <l>To ſtay thy ſelf when thou art like to fall.</l>
+                  </lg>
+                  <lg>
+                     <l>What elſe thou wanteſt <hi>I</hi> to thee have ſent,</l>
+                     <l>the which may yeild thee pleaſure &amp; content</l>
+                     <l>Methinks thy hands into thy pocket go,</l>
+                     <l>But thou haſt not one penny for to ſhow.</l>
+                  </lg>
+                  <lg>
+                     <l>Yet for all this thou ſeemeſt full of ſorrow,</l>
+                     <l>Having no coyn, nor knoweſt not where to borrow,</l>
+                     <l>Clear up brave ſpirit, caſt off diſcontent,</l>
+                     <l>By ſuch a one ten pounds <hi>I</hi> have thee ſent.</l>
+                  </lg>
+                  <lg>
+                     <l>But uſe it wiſely, ſpend it not in vain,</l>
+                     <l>When that is gone then ſend for more again</l>
+                     <l>Thou ſhalt not want thy need for to ſuffice,</l>
+                     <l>till death me ceaſe, &amp; cloſe up both my eyes.</l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p>William <hi>being thus bravely accomodated, and his man at his heels, upon a gallant ge<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d<g ref="char:EOLhyphen"/>ing. and well apparalel'd with each of them a truſty ſword, and a caſe of Piſtols, takes up<g ref="char:EOLhyphen"/>on
+<pb facs="tcp:46342:9"/>himſelf the name of a countrey Squire, by which means he might the better deceive all that he delt withal, and with what tradeſman ſoever he met he pretended that he had ſome commodities fitting for their uſe, and that he delt in exchange, for many ſorts of Merchan<g ref="char:EOLhyphen"/>dize: both himſelf and his Man, coyned to them<g ref="char:EOLhyphen"/>ſelves ſeveral names, and had their ſeveral changes of habits, and Perri-wiggs according to the ſeveral places that they came unto, they had alſo their ſeveral colour'd plaiſters, or if that you pleaſe patches of Maſtick ever about them in a redineſs, and their riding coats were made both inſide and outſide perfect work for two ſeveral coats, they were eaſily chan'd by turning the iner-ſide outward.</hi>
+            </p>
+            <div type="part">
+               <head>How he ſerved a rich Saleſman.</head>
+               <p>
+                  <hi>William</hi> and his man walking through the City, where was great ſtore of Saleſmen, which did ſo ply pull, and hawl him to buy ap<g ref="char:EOLhyphen"/>parel, that by the Shop-keepers perſwaſtons and his mans, he went into the ſhop, peruſed of many cloaths ready made, as came to near or about an hundred pounds, pretending for his family at his country houſe, well, to the Ta<g ref="char:EOLhyphen"/>vern they go with all ſpeed, where he treats the Saleſman thus; Sir, I perceive that you are willing to ſell, but I queſtion whether you
+<pb facs="tcp:46342:9"/>be as ready to buy if a man would ſell you ne<g ref="char:EOLhyphen"/>ver ſo good and great penniworths. Sir ſaid the Saleſman if you have any commodity in my way I had as leade take Commodity as moneys, what is it? Sir ſaid <hi>VVilliam,</hi> it is broad cloath, ſix quarters wide, and therewith ſhowed him a ſample of all the ſeveral ſorts, they bargin, that if the buyer like in when he ſeés it, then to take cloath, if not to have ready money. But ſtay Sir, ſaid <hi>VVilliam,</hi> you know not me, neither do I know your deal<g ref="char:EOLhyphen"/>ings, and I would not deal deceitfully with any, nor yet receive any wrong my ſelf, will you except of my propoſitions. Yea ſaid the o<g ref="char:EOLhyphen"/>ther if <hi>I</hi> like them. Then ſaid <hi>William I</hi> will leave two hundred pounds in my Land-Lords hands till my cloath comes to town if you will deliver me the Commodities upon that condi<g ref="char:EOLhyphen"/>on, how like you this? Well ſaid the other, if the Inn-keeper will ſecure me the moneys, I will with all my heart, then from the Tavern to the Inn forthwith they go together &amp; having treated with the In-keeper, he conſents, then ſaid <hi>William</hi> bring you the Cloathing that I have bought hither to Morrow Morning, and you ſhall ſee the Moneys told, for I love plain dèaling, then went <hi>William</hi> to another Saleſ<g ref="char:EOLhyphen"/>man of his old acquaintance, appoints him to meet him at ſuch a Tavern next day, at tén a
+<pb facs="tcp:46342:10"/>clock, and to bring Moneys with him, and he would ſell him a good penniworth.</p>
+               <p>In the Morning came the Saleſman with Porters laden with the Cloathing to the Inn where <hi>William</hi> waited for their comming, ha<g ref="char:EOLhyphen"/>ving prepared a large colation of an Angel price, where <hi>William</hi> in the preſence of the Saleſman, the Inn-keeper and others, poured out two hundred pounds upon the table of good and lawful Money, draws it over, puts it into the baggs again, ſeals it up with his own ſeal to prevent miſtakes, lays it upon the table; asks if that be not ſufficient ſecurity, accord<g ref="char:EOLhyphen"/>ing to Law, they all allow it for good: it ſo fell out that the Saleſman went out of the room to eaſe himſelf, and the Inn-keeper to be cal'd to the door, then <hi>Williams</hi> Man claps down two other bags juſt like theſe firſt in all points both magnitude weight and ſeal, and away he goes to his maſters chamber, then in came the other two, then ſaid <hi>William</hi> to his man, ſend theſe goods away to be pact with the firſt, his Man well knowing his meaning, ſent them a<g ref="char:EOLhyphen"/>way imediately to the place appointed, where the other was ready, and upon ſight paid him his ready Money, for he had a great Penny<g ref="char:EOLhyphen"/>worth, then his Man commanded the Horſes to be made ready with all ſpeed, ſaying, that his Maſter and he muſt haſt home to ſend up
+<pb facs="tcp:46342:10"/>the cloath, or elſe his Maſter would be damni<g ref="char:EOLhyphen"/>fied above an hundred pounds: In the mean while <hi>William</hi> plies the Inn-keeper and Saleſman with Wine, Tobacco, and merry tales, till both their hearts were merry, then delivered he the two baggs to the Inn-kéeper in the preſence of the Saleſman, and divers others (who did comend him for his loyalneſs) ſo they drank one quart of wine more, and ſo parted.</p>
+            </div>
+            <div type="part">
+               <head>How far he rid that night.</head>
+               <p>So <hi>William</hi> and his Man mounted with all ſpeed, and was very bountiful to the Ser<g ref="char:EOLhyphen"/>vants of the houſe, and ſo they ſet forward as to go into the countrey, but being gotten out of ſight they wheeled to the left, and took up their quarters near <hi>Weſtminſter,</hi> as if they had come but then out of the Countrey, this booty made our Monnſier very jocond and lively for that night; as he walked the ſtreet he met with a gallant damoſel, and gueſſing by her habit, carriage, and anſwers, what ſhe was, he courts her to lye with him that night, ſhe conſented for thrée go den angels to be his pro<g ref="char:EOLhyphen"/>tector for that night, then they ſupt together, and drank Wine in abundance, ſo <hi>William</hi> went into his bed, ſhe was tedioous, and made delay in undreſſing her ſelf, in the mean time he fell faſt aſteep, ſhe ſeeing that, took out of
+<pb facs="tcp:46342:11"/>his Pockets thirty pound in gold, a Watch worth five pounds, and a Diamond King worth fifteen pound, in all to the value of fifty pound, and ſo departed, but Mounſt<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>er ſlept till break of day, and then miſt his fair Lady, his Gold, his Watch, and his ring, but could not tell whe<g ref="char:EOLhyphen"/>ther ſhe was a Man or a Woman that cheated him but by her hands and face.</p>
+               <lg>
+                  <l>
+                     <hi>where dwels the man that now can me adviſe</hi>
+                  </l>
+                  <l>
+                     <hi>To find her that hath won this golden prize,</hi>
+                  </l>
+                  <l>
+                     <hi>He ſwore the next &amp; firſt he could trappan,</hi>
+                  </l>
+                  <l>
+                     <hi>Not to be baukt, but prove himſelf a man,</hi>
+                  </l>
+                  <l>
+                     <hi>Full vext he was for truth, as I am told,</hi>
+                  </l>
+                  <l>
+                     <hi>'Cauſe ſhe him baukt, &amp; ſtole away his gold,</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>How he was ſerv'd the next day.</head>
+               <p>As ill-gain'd Goods never thrives, ſo it proved with <hi>William,</hi> for all the next day he walks the ſtreets to ſee if he could ſet his eye upon this gay Lady, but could not, but walk<g ref="char:EOLhyphen"/>ing through the <hi>Strand</hi> he met with a beauti<g ref="char:EOLhyphen"/>ful Woman, which he courted, ſhe yielded to go to the Tavern with him, where they call for a Chamber, and Fagets to make a fire: Now ſir, ſaid ſhe, that I have condeſcended to come to the Tavern, I pray give me leave to Drink what Wine I will, and as little as I pleaſe, for I drink nothing but mul'd ſack, whilſt the ſack was a mulling, he that know well how to take
+<pb facs="tcp:46342:11"/>meaſure, firſt took notice of her handſome foot &amp; leg, her ſtiken ſtockings, &amp; ſilk garter, with gold &amp; ſilver lace hanging down to the midleg, then next of her ſmock, that was laced with a Flanders Lace, ſix inches broad round about the bottom, what with theſe, the vertue of ſack &amp; the heat of the fire, ſet him into ſuch a heat that it made all people admire.</p>
+               <lg>
+                  <l>
+                     <hi>More of this I could ſay but I dare not,</hi>
+                  </l>
+                  <l>
+                     <hi>But thought is free, think what you will and ſpare not;</hi>
+                  </l>
+                  <l>
+                     <hi>Being full of pain, in rage he deeply ſwore,</hi>
+                  </l>
+                  <l>
+                     <hi>That whilſt he liv'd he'd touch lace ſmock no more.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>He deſcribes his laſt Miſtris and firſt thus.</head>
+               <p>To be mans miſery, her voice like the ſerich<g ref="char:EOLhyphen"/>ing of an Owl her eyes the poyſon of a Cock<g ref="char:EOLhyphen"/>atrice, her hands the claw of a Crockadile, her heart the Cabinet of horror, ſhe is the grief of nature, reaſons trouble, wits wound, abuſe of time, her pride unſupportable, her anger is un<g ref="char:EOLhyphen"/>quenchable, ſhe fears no coulers, nor cares for no counſel, ſhe is a ſervant, but not of good, the taſt of bitterneſs, the digeſtion of death.</p>
+            </div>
+            <div type="part">
+               <head>Now return we to the Saleſman and the Inn-keeper.</head>
+               <p>
+                  <hi>William</hi> never ſends up the cloath, the day
+<pb facs="tcp:46342:12"/>is paſt, the Saleſman comes to the Inn-kéep<g ref="char:EOLhyphen"/>er <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd demands his money the b<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>g is produced faſt ſealed as it was delivered, the ſeal is bro<g ref="char:EOLhyphen"/>ken up before perſons of note, and being pou<g ref="char:EOLhyphen"/>red out, cauſed great admiration, for the ſub<g ref="char:EOLhyphen"/>ſtance contain'd therein, was only lead &amp; glaſs cut round, all not worth five ſhillings at the moſt. <hi>William</hi> is not to be found, the Inn-kéep<g ref="char:EOLhyphen"/>er is arreſted, and pays the money, for both the bags prove alike.</p>
+               <p>After all this, <hi>William</hi> betakes him to his ſhifts, and furniſheth himſelf with a fair gold ring, having ſet therein a fair ſquare Topas, &amp; a moſt excellent hatcht ſilver hilted Kapier, whoſe puni<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> was moſt glorſouſly pulliſhed, like any looking-glaſs, both this ſtone and Pumel repreſents whatſoever is ſet before them like to a Looking-glaſs, then he fell to Card-play<g ref="char:EOLhyphen"/>ing amongſt great perſons putting on his ring on his little finger on his left hand, which he turn'd towards the pack which diſcovered e<g ref="char:EOLhyphen"/>very Card that he drew what it was, at other times he laid his rapier juſt croſs his waſte un<g ref="char:EOLhyphen"/>der his left hand, in the pumil thereof he might deſerne every Card he drew moſt plainly, by this way be won or rather cheated ſeveral per<g ref="char:EOLhyphen"/>ſons of much coyn, but he was diſcovered and laid open by one 'tis thought that is as cunning in that art as himſelf, &amp; ſo was caſhear'd that
+<pb facs="tcp:46342:12"/>Company, and that part wherein this act was performed.</p>
+            </div>
+            <div type="part">
+               <head>What tricks he play'd in the Country.</head>
+               <p>
+                  <hi>William</hi> being caſhear'd the C<gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>, he with his Man fled into the Country, having firſt ob<g ref="char:EOLhyphen"/>tained a firm Cathologue of all the names of the Lords, Kts. &amp; Gentlemen in thoſe parts, &amp; how many miles it was betwixt every parti<g ref="char:EOLhyphen"/>cular place, ſo he traveled into the countrey a<g ref="char:EOLhyphen"/>bout an hundred miles from <hi>
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ond.</hi> to a great ſhire town, to the greateſt Inn there hires a boy to go with them ſome ſ<gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>miles to the ſaid Inn &amp; his groom by him, he ſenes ba<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> his hor<g ref="char:EOLhyphen"/>ſes to a place appointed, there he continued <hi>3</hi> days, ſpending moderately, but paying freely, and would never ſit down till his heaſt was placed at the upper end of the table, in this time his m<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n was diligent in making inquiery what Country man the maſter of the Houſe was, &amp; from whence the tapſter, chamberlain, &amp; maids came, &amp; what country Gent. frequent<g ref="char:EOLhyphen"/>ed that houſe, and from what parts they came, then his man gives out amongſt the Servants that his maſter was from ſuch a place, that was far enough diſtant from that place, that he had ſo many hundred pound coming in by the year, that he came thither to ſojourn a while till he could ſell a parcel of Land with a ſtock of cat<g ref="char:EOLhyphen"/>tle upon it, which would amount to twenty five
+<pb facs="tcp:46342:13"/>hundred pound at leaſt, this report cauſ'd him to be honored like to a deme god.</p>
+               <p>Late in the Evening comes in a counterfeit Foot-man, delivers <hi>William</hi> his meſſage in the great hall, ſo told, that all men might hear that ſuch a Kt. living ten miles from thence, muſt néeds ſpeak with him next day by ten of the clock becauſe he heard he would ſell his land, &amp; foraſmuch as it lay convenient for him, he would give him as much for it as any man. <hi>At</hi> this <hi>William</hi> ſtamps &amp; ſcratches, ſaying; <hi>O what a rogue was I to ſend back my horſes,</hi> his Hoſt believing that it was a curant truth, furniſht him with two horſes: he promiſt to re<g ref="char:EOLhyphen"/>turn again within two days at moſt, &amp; would pay him what he would deſire, but did not, when ſix days were expired they ſent to the Kts. houſe, but he profeſt he knew no ſuch man.</p>
+               <lg>
+                  <l>
+                     <hi>By this his <hi>will</hi> his hoaſt-he was defeated,</hi>
+                  </l>
+                  <l>
+                     <hi>Of two-brave horſes the Inn-keeper was cheated,</hi>
+                  </l>
+                  <l>
+                     <hi>There was no truth i'th words that he did ſay,</hi>
+                  </l>
+                  <l>
+                     <hi>For he rid quite the clean contrary way.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>How he releaſed a man from priſon.</head>
+               <p>So he traveled from thence to another great to in, where it was his chance to paſs by the Countrey Priſon windows, wherein a<g ref="char:EOLhyphen"/>mongſt many other priſoners, he found one
+<pb facs="tcp:46342:13"/>poor man that had ſix ſmall Children, that did all depend upon his honeſt labour, whom he queſtioned, &amp; found that he had lain their now a long time at the ſute of a hard-hearted Rich<g ref="char:EOLhyphen"/>man for twenty pounds, being bound for a<g ref="char:EOLhyphen"/>nother man, which <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> eved h<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> to pitty &amp; com<g ref="char:EOLhyphen"/>paſſion, &amp; to try his wits how to clear the poor man, then ſent forthwith for the creditor to the tavern, and there treated him to ſet the poor man frer, but could by no means prevail with<g ref="char:EOLhyphen"/>out either the ready money or ſufficient ſecu<g ref="char:EOLhyphen"/>rity, unto which <hi>VVilliam</hi> replyed, ſaying: <hi>Sir I do ingeniouſly profeſs that if I had not parted with all my money to ten pound but yeſterday for a parcel of Land that <hi>I</hi> have bought of ſuch a man,</hi> naming a right ſeller, and the other took it for curant, <hi>I would have paid you your money down, &amp; the poor man ſhould have oven my ſervant.</hi> So <hi>William</hi> plyed the creditor with ſack, which he lickt in as freely as a thirſty horſe doth fair water, after eating of parched beans, till be grew as mellow as a pair, when he ſaw all the Family honour <hi>VVilliam</hi> with the title of worſhipful, he believed him to be the ſame Man that he preſented, and in a merry v in tells <hi>Willi<g ref="char:EOLhyphen"/>am</hi> that if his Worſhip would give him a bond of forty pounds, to pay him twenty at the next quarter day, he would ſet the Priſoner free,
+<pb facs="tcp:46342:14"/>unto which <hi>William</hi> conſents; ſaying: <hi>
+                     <hi>I</hi> que<g ref="char:EOLhyphen"/>ſtion not but that the poor man will work it out by little and a little.</hi> Then ſend they for the priſoner to come with a Kerper, he con<g ref="char:EOLhyphen"/>ſents to ſerve his new Maſter, a Scrivener is ſent for, who by <hi>VVilliams</hi> inſtructions faſt<g ref="char:EOLhyphen"/>ned the debt wholly upon him, &amp; clear'd the pri<g ref="char:EOLhyphen"/>ſoner quite for ever from the debt, which pleaſ'd the mizard well, <hi>William</hi> pays the Scrive<g ref="char:EOLhyphen"/>ner, clears the Priſon fees, permits his new ſervant to go home to his Wife and Children, biding him to be ſure to come to him to his Inn by ſix a clock next morning, &amp; after <hi>William</hi> had paid for the wine, he threw a ſhilling to the drawer, and another to the maid, and ſo they parted for that night.</p>
+               <p>Next morning <hi>William</hi> ſends for this mi<g ref="char:EOLhyphen"/>ſer again to the ſame tavern, he gives him a colation, in the intrem of time comes in a coun<g ref="char:EOLhyphen"/>try fellow tells him that the cattle which his Bayl<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y had bought to ſtock his new purchaſed Land was come, and put into the paſtures, and that the Farmer that ſold them and the Bay<g ref="char:EOLhyphen"/>ly was at the Inn and furdermore that the price of the cattle came to twenty pound more then he had delivered his bayley, &amp; that the far<g ref="char:EOLhyphen"/>mer ſtaid there for to receive it: then ſaid the Churl, <hi>Let them come hither: No ſuch mat<g ref="char:EOLhyphen"/>ters</hi> (ſays <hi>VVilliam</hi>) <hi>my ſervant ſhall be
+<pb facs="tcp:46342:14"/>no fellow of mine, pox apont</hi> (ſays <hi>William</hi>) <hi>
+                     <hi>I</hi> muſt away to ſuch a gentleman my Couſen to borrow twenty pounds for I love to keep my word.</hi> That ſhall not néed, ſir ſaid the other if your worſh<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>p pleaſe I will ſupply you with <hi>20</hi> pound upon your own bond, what is that be<g ref="char:EOLhyphen"/>twixt you &amp; me, the <hi>20</hi> pound was produced, &amp; bond given to be paid the next quarterday, then ſays <hi>William</hi> to his man, carry this mony to my bayly to pay the farmer for his cattle, &amp; bid him make haſt home, and make ready for my coming, bid the hoſtler make ready the horſes, for I long to be gone to ſée what bargin of cat<g ref="char:EOLhyphen"/>tle my man hath bought, why ſir ſaid the miſer how many hath he bought? truly ſir ſaid <hi>Wil<g ref="char:EOLhyphen"/>liam</hi> I know no more then you do how many head of meat he hath bought, but I am ſure that I delivered him <hi>400</hi> pound in good mony why then ſaid the other, they ſtand you in <hi>420</hi> pound yea ſaid <hi>William,</hi> &amp; <hi>5</hi> pound more, then c<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>me in his ſervingman, and ſaid, ſir if it pleaſe your worſhip the horſes are ready, ſo they drank one merry cup more, &amp; ſo parted the Miſer to car<g ref="char:EOLhyphen"/>ry home his <hi>20</hi> pounds worth of paper, &amp; <hi>Wil<g ref="char:EOLhyphen"/>liam</hi> to his horſe with <hi>2<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> pound in ſilver, then he c<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l'd the releaſed priſoner, &amp; there before the Inn-keeper &amp; other perſons, he diſcharg'd him from his ſervice &amp; gave him <hi>10</hi> pound to carry home to his wife, &amp; to begin the world anew, and ſo departed.</p>
+            </div>
+            <div type="conclusion">
+               <pb facs="tcp:46342:15"/>
+               <head>The Concluſion,</head>
+               <opener>To the Tune of, <hi>The clean contrary way.</hi>
+               </opener>
+               <lg>
+                  <l>
+                     <hi>William</hi> of <hi>Wiltſhire</hi> was a valiant Knight,</l>
+                  <l>if you will believe it you may,</l>
+                  <l>For unto all men he lov'd to do right,</l>
+                  <l>the clean contrary way.</l>
+                  <l>
+                     <hi>Ah, the clean contrary way.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>To live by cheating his heart it did thirſt,</l>
+                  <l>and for to go gallant and gay,</l>
+                  <l>And he that's not like him he thinks is accurſt,</l>
+                  <l>the clean contrary way, &amp;c</l>
+               </lg>
+               <lg>
+                  <l>Thoſe that with moneys his wants have ſupply'd,</l>
+                  <l>he at his return will them <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ay,</l>
+                  <l>When that his worſhip they once more have ſpy'd,</l>
+                  <l>the clean contrary way, &amp;c.</l>
+               </lg>
+               <lg>
+                  <l>No Ranter, nor Canter, could yet overthrow him,</l>
+                  <l>but he shewed them very fair play,</l>
+                  <l>But he that knew nothing could wiſly foreſtow him,</l>
+                  <l>the clean contrary way, &amp;c.</l>
+               </lg>
+               <lg>
+                  <l>When he comes to London to ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e the S<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>man,</l>
+                  <l>his hundred pounds then he'l pay,</l>
+                  <l>The Inn-keeper ſhall receive it if he ca<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>,</l>
+                  <l>the clean contrary way, &amp;c.</l>
+               </lg>
+               <lg>
+                  <l>The Lady of pleaſure will bring back his gold,</l>
+                  <l>if you will believe it you may,</l>
+                  <l>She'l kiſs and imbrace him to make him more bold,</l>
+                  <l>the clean contrary way, &amp;c.</l>
+               </lg>
+               <lg>
+                  <l>And he will return to the gallants their guilt,</l>
+                  <l>the which he hath won by foul play,</l>
+                  <l>By help of the Topas Stoan, and the brave hilt,</l>
+                  <l>the clean contrary way,</l>
+                  <l>
+                     <hi>ah, the clean contrary way.</hi>
+                  </l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:46342:15"/>
+         </div>
+      </body>
+   </text>
+</TEI>
